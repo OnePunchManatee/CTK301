@@ -1,0 +1,49 @@
+/* stylesheet beta */
+
+p {
+  color: #ff8877;
+  background-color: #008855;
+}
+
+h1 {
+  color: #FF6969;
+  background-color: #778899;
+}
+
+#PURPLEPOWER {
+  color: #430033;
+}
+
+.pigmentationtransmogrification {
+  color: #008877;
+  background-color: #FF0000;
+}
+
+a {
+  color: #FF0000;
+  text-decoration: none;
+}
+
+a:link {
+  color: #FF0000
+}
+
+
+a:visited {
+  color: #004400;
+}
+
+a:hover {
+  color: #ffe500;
+  text-decoration: underline;
+}
+
+#divisionaugmentation {
+  color: #445566;
+  background-color: #110011;
+}
+
+.odium {
+  color: #FF0000;
+  font-size: xxx-large;
+}
