@@ -1,0 +1,94 @@
+/* stylesheet alpha */
+
+body {
+   font-family: sans-serif;
+   background-image: url(evaunit01.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.centralization {
+  text-align: center;
+}
+
+.JUSTICE {
+  text-align: justify;
+}
+
+p {
+  background-color: lightblue;
+}
+
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+h4 {
+  color: white;
+}
+
+.imgmod {
+  border: 10px solid black;
+  padding: 20px;
+  background-color: white;
+}
+
+#PURPLEPOWER {
+  color: #430033;
+}
+
+footer {
+  text-align: justify;
+}
+
+header {
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+}
+
+/*Not sure why font-weight won't apply if I only put it in the header*/
+
+h1 {
+  font-weight: normal;
+}
+
+.pigmentationtransmogrification {
+  color: orange;
+  background-color: #FF0000;
+}
+
+a {
+  color: #FF0000;
+  text-decoration: none;
+}
+
+a:link {
+  color: #FF0000
+}
+
+
+a:visited {
+  color: #004400;
+}
+
+a:hover {
+  color: #ffe500;
+  text-decoration: underline;
+}
+
+#divisionaugmentation {
+  color: #445566;
+  background-color: #110011;
+  text-align: center;
+}
+
+.odium {
+  color: #FF0000;
+  font-size: xxx-large;
+}
