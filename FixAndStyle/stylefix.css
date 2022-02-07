@@ -1,0 +1,37 @@
+h1 {
+  color: white;
+}
+
+#PURPLEPOWER {
+  background-color: lavender;
+}
+
+h2 {
+  color: blue;
+}
+
+#yellowizeifymogulate {
+  color: goldenrod;
+  font-weight: bold;
+}
+
+h3 {
+  background-color: yellow;
+}
+
+.redtown {
+  color: red;
+}
+
+#johndeere {
+  color: yellow;
+  background-color: forestgreen;
+}
+
+#mintgreen {
+  background-color: lightgreen;
+}
+
+footer {
+  background-color: yellow;
+}
