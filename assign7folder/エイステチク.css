@@ -1,0 +1,147 @@
+body {
+  background-color: lightgray;
+}
+
+#wrapper {
+  width: 950px;
+  border: 3px solid blue;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 1em auto;
+  padding: 0;
+}
+
+h1 {
+  font-style: italic;
+  color: lightblue;
+  font-family: helvetica, sans-serif;
+  grid-column: span 4;
+  padding: 15px;
+  margin: 0;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+    grid-column: span 4;
+    padding: 15px;
+    margin: 0;
+}
+
+header a{
+  color: lightblue;
+  text-decoration: none;
+}
+
+nav {
+  font: sans-serif;
+  font-weight: bold;
+  font-family: helvetica, sans-serif;
+  grid-column: span 4;
+}
+
+nav ul{
+  list-style-type: none;
+  background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+  margin: 0;
+  padding: 0;
+}
+
+/*there's a weird gap between the buttons that I swear wasn't there before but I have no idea where it's coming from. It seems like it's margin since it's outside the borders of the list items but I zero'd everything out and nothing worked.*/
+nav li{
+  width: 230px;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  border-right: 3px solid blue;
+}
+
+nav li a{
+  color: lightblue;
+  background-color: red;
+  padding: 15px;
+  padding-right: 0px;
+  margin: 0;
+  text-decoration: none;
+  background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+  display: block;
+}
+
+nav li a:hover {
+  background-image: linear-gradient(to top, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+}
+
+.boldify {
+  font-weight: bold;
+  text-align: justify;
+}
+
+main {
+  background-color: white;
+  grid-column: span 4;
+  padding: 20px;
+  padding-top, padding-bottom: 0px;
+  font-family: georgia, serif;
+}
+
+h2 {
+  border-bottom: 3px solid blue;
+  color: blue;
+  font-family: helvetica, sans-serif;
+  grid-column: span 4;
+}
+
+p {
+  grid-column: span 4;
+}
+
+p a{
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.float {
+  float: left;
+  border: 3px solid blue;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-top: 0;
+  padding: 0;
+}
+
+.floatleft {
+  float: right;
+  border: 3px solid blue;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-top: 0;
+  padding: 0;
+}
+
+footer {
+  grid-column: span 4;
+  border-top: 3px solid blue;
+  background-color: red;
+  padding: 10px;
+}
+
+a:hover {
+  color: gray;
+}
+
+main a:hover {
+  text-decoration: underline;
+}
+
+.triimagemod1 {
+  border: 3px solid blue;
+  padding: 0;
+  margin-right: 25px;
+}
+
+.triimagemod2 {
+  border: 3px solid blue;
+  padding: 0;
+}
