@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'tf2secondary';
+    /*src: url('https://onepunchmanatee.github.io/CTK301/assign10folder/PortfolioSite.woff2') format('woff2'),
+         url('https://onepunchmanatee.github.io/CTK301/assign10folder/PortfolioSite.woff') format('woff');*/
+    src: url('PortfolioSite.woff2') format('woff2'),
+          url('PortfolioSite.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*couldn't get this to work*/
+
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: lightgray;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+  border-radius: 20px;
+}
+
+header {
+  margin: 0 auto;
+}
+
+#center {
+  padding-left: 500px;
+}
+
+body {
+  background-image: url(wall.jpg);
+}
+
+header {
+  grid-column: span 12;
+}
+
+nav {
+  grid-column: span 12;
+}
+
+nav ul{
+  list-style-type: none;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid darkgray;
+  border-bottom: 0px;
+  border-radius: 15px 15px 0px 0px;
+  background-color: orange;
+  font-family: 'tf2secondary', sans-serif;
+}
+
+nav a{
+  text-decoration: none;
+}
+
+/* style for dummy columns, delete and replace with your own CSS */
+.dummycolumn {
+  background-color: rgba(255,0,0,.25);
+  grid-column: span 1;
+}
+
+.mamimi {
+  width=85%;
+}
