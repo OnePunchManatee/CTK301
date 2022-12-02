@@ -209,3 +209,8 @@ nav li:hover{
   margin-left: 48px;
   width: 550px;
 }
+
+.image {
+    filter: drop-shadow(0.25rem 0.25rem 0.5rem #000000);
+    margin-left: 10px;
+}
